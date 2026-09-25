@@ -34,8 +34,6 @@ python chart_generation.py
 
 Edit `user_instructions`, the models, and `image_basename` at the bottom of `chart_generation.py` to try other charts. By default, `claude-haiku-4-5` generates the first draft and `claude-sonnet-4-6` does the reflection.
 
-A notebook version is in `M2_UGL_chart_generation.ipynb`.
-
 ## Files
 
 | File | Purpose |
@@ -43,4 +41,4 @@ A notebook version is in `M2_UGL_chart_generation.ipynb`.
 | `chart_generation.py` | The end-to-end reflection workflow |
 | `utils.py` | Data loading, LLM calls, and display helpers |
 | `coffee_sales.csv` | Coffee vending machine sales data |
-| `M2_UGL_chart_generation.ipynb` | Notebook version of the workflow |
+| `drink_sales_v1.png`, `drink_sales_v2.png` | Example output: first draft and reflected chart |
